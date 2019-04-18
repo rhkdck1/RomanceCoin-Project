@@ -1,0 +1,34 @@
+src/*.exe
+src/romancecoin
+src/romancecoind
+src/test_romancecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.romancecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+romancecoin-qt
+Litecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+romancecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
